@@ -2,8 +2,6 @@
 
 Canal oficial de distribución de **Control de Buses para Android**.
 
-Este repositorio se utiliza exclusivamente para publicar versiones instalables de la aplicación Android. El código fuente y los componentes de escritorio/servidor no se distribuyen desde este repositorio.
-
 ## Descargar
 
 La versión más reciente estará disponible en **Releases**:

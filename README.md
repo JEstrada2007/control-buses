@@ -8,8 +8,6 @@ La versión más reciente estará disponible en **Releases**:
 
 **[Descargar la última versión](https://github.com/JEstrada2007/control-buses/releases/latest)**
 
-Si todavía no existe una release publicada, el enlace mostrará la página de releases hasta que se publique la primera versión.
-
 ## Requisitos
 
 Para utilizar Control de Buses necesitas:

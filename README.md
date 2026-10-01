@@ -12,86 +12,48 @@ La versión más reciente estará disponible en **Releases**:
 
 Si todavía no existe una release publicada, el enlace mostrará la página de releases hasta que se publique la primera versión.
 
+## Requisitos
+
+Para utilizar Control de Buses necesitas:
+
+- Un dispositivo Android compatible.
+- Tener **Tailscale** instalado y conectado.
+- Tener acceso autorizado a la red de Control de Buses.
+- Conexión con el servidor de Control de Buses.
+
+**[Descargar Tailscale para Android](https://tailscale.com/download/android)**
+
+> Si Tailscale está desconectado o el servidor no está disponible, algunas funciones de la aplicación no podrán sincronizarse.
+
 ## Instalación
 
-1. Abre la sección **Releases**.
-2. Entra en la versión que quieras instalar.
-3. Descarga el archivo `.apk` adjunto.
-4. Abre el APK en tu dispositivo Android.
-5. Si Android lo solicita, autoriza la instalación desde esa fuente.
-6. Completa la instalación.
+1. Instala **Tailscale** desde el enlace anterior.
+2. Comprueba que estás conectado a la red autorizada de Control de Buses.
+3. Abre la sección **Releases**.
+4. Descarga el archivo `.apk` de la versión más reciente.
+5. Abre el APK en tu dispositivo Android.
+6. Si Android lo solicita, autoriza la instalación desde esa fuente.
+7. Completa la instalación y abre Control de Buses.
 
 > Para actualizar la aplicación, instala el APK de la nueva versión sobre la instalación existente. No desinstales la aplicación salvo que sea necesario, ya que hacerlo puede eliminar datos almacenados localmente.
 
 ## Versiones
 
-Las publicaciones siguen versionado semántico:
+Las nuevas versiones de Control de Buses se publican en **Releases** junto con su archivo APK y una descripción de los cambios realizados.
 
-```text
-MAJOR.MINOR.PATCH
-```
+Las versiones marcadas como **Pre-release** son versiones de prueba y pueden contener errores.
 
-Ejemplos:
+## Instalación y actualización
 
-- `1.0.0` — primera versión estable.
-- `1.1.0` — nuevas funciones compatibles.
-- `1.1.1` — correcciones y ajustes menores.
-- `2.0.0` — cambios importantes o incompatibles.
+Descarga el archivo `.apk` de la versión más reciente e instálalo en tu dispositivo Android.
 
-Cada release debe incluir:
-
-- número de versión;
-- fecha de publicación;
-- APK;
-- resumen de cambios;
-- correcciones relevantes;
-- notas de instalación o actualización cuando sean necesarias.
-
-## Canales
-
-### Stable
-
-Versiones destinadas al uso normal. Son las publicaciones recomendadas para los usuarios.
-
-### Pre-release
-
-Versiones de prueba que pueden utilizarse para validar funciones nuevas antes de promoverlas a Stable. GitHub las mostrará marcadas como **Pre-release**.
-
-## Nombre de los APK
-
-Formato recomendado:
-
-```text
-ControlBuses-v1.0.0.apk
-```
-
-Para versiones de prueba:
-
-```text
-ControlBuses-v1.1.0-beta.1.apk
-```
-
-## Plantilla de release
-
-```markdown
-# Control de Buses vX.Y.Z
-
-## Novedades
-- ...
-
-## Correcciones
-- ...
-
-## Notas
-- ...
-
-### Instalación
-Descarga `ControlBuses-vX.Y.Z.apk` desde Assets e instálalo sobre la versión anterior.
-```
+Si ya tienes Control de Buses instalado, puedes instalar la nueva versión sobre la anterior para actualizarla sin eliminar tus datos.
 
 ## Seguridad
 
-Descarga los APK únicamente desde la sección **Releases** de este repositorio para evitar copias modificadas o versiones no oficiales.
+Descarga Control de Buses únicamente desde la sección **Releases** de este repositorio.
+
+No compartas credenciales, claves de acceso ni información interna de la red de Control de Buses.
 
 ## Proyecto
 

@@ -15,7 +15,7 @@ Si todavía no existe una release publicada, el enlace mostrará la página de r
 Para utilizar Control de Buses necesitas:
 
 - Un dispositivo Android compatible.
-- Tener **Tailscale** instalado y conectado.
+- Tener una **cuenta de Tailscale** y Tailscale instalado y conectado.
 - Tener acceso autorizado a la red de Control de Buses. El acceso se proporciona mediante una invitación de Tailscale enviada directamente por el administrador.
 - Conexión con el servidor de Control de Buses.
 

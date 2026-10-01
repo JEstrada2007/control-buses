@@ -16,7 +16,7 @@ Para utilizar Control de Buses necesitas:
 
 - Un dispositivo Android compatible.
 - Tener **Tailscale** instalado y conectado.
-- Tener acceso autorizado a la red de Control de Buses.
+- Tener acceso autorizado a la red de Control de Buses. El acceso se proporciona mediante una invitación de Tailscale enviada directamente por el administrador.
 - Conexión con el servidor de Control de Buses.
 
 **[Descargar Tailscale para Android](https://tailscale.com/download/android)**
@@ -26,12 +26,13 @@ Para utilizar Control de Buses necesitas:
 ## Instalación
 
 1. Instala **Tailscale** desde el enlace anterior.
-2. Comprueba que estás conectado a la red autorizada de Control de Buses.
-3. Abre la sección **Releases**.
-4. Descarga el archivo `.apk` de la versión más reciente.
-5. Abre el APK en tu dispositivo Android.
-6. Si Android lo solicita, autoriza la instalación desde esa fuente.
-7. Completa la instalación y abre Control de Buses.
+2. Solicita al administrador de Control de Buses una invitación para acceder a la red privada.
+3. Acepta la invitación y comprueba que Tailscale esté conectado a la red autorizada de Control de Buses.
+4. Abre la sección **Releases**.
+5. Descarga el archivo `.apk` de la versión más reciente.
+6. Abre el APK en tu dispositivo Android.
+7. Si Android lo solicita, autoriza la instalación desde esa fuente.
+8. Completa la instalación y abre Control de Buses.
 
 > Para actualizar la aplicación, instala el APK de la nueva versión sobre la instalación existente. No desinstales la aplicación salvo que sea necesario, ya que hacerlo puede eliminar datos almacenados localmente.
 
